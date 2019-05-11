@@ -68,4 +68,10 @@ body{
     #mobile-nav ul li a:hover{
         text-decoration: none !important;
     }
+    .main-content{
+        width: 100%;
+    }
+    .main-content-font{
+        font-size: 28px;
+    }
 }

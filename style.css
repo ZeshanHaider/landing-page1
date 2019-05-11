@@ -1,0 +1,74 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background-color: #252834 !important;
+}
+.main-container{
+    height: 100%;
+}
+.main-content{
+    width: 555px;
+}
+.mt-25{
+    margin-top: 155px;
+}
+.main-content-font{
+    font-size: 40px;
+}
+.matthew-name{
+    color: #fa0063 !important;
+}
+.view-my-work-btn{
+    background-color: transparent !important;
+    border: 1px solid #fff;
+    padding: 10px 28px;
+    cursor: pointer;
+    border-color: #fff;
+    font-size: 21px;
+    font-weight: 100;
+}
+.view-my-work-btn:hover {
+    background-color: #fa0063 !important;  
+}
+.view-my-work-btn:focus {
+    outline: none !important;
+}
+.footer{
+    background-color: #1a2430;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.footer ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 35px;
+    text-transform: uppercase;
+}
+.footer ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+.footer ul li a:hover{
+    text-decoration: none !important;
+}
+.active{
+    color: #fa0063 !important;
+}
+
+@media only screen and (max-width: 767px){
+    #mobile-nav{
+        display: block !important;
+    }
+    .footer{
+        display: none;
+    }
+    #mobile-nav ul li a{
+        color: #fff;
+        font-size: 17px;
+    }
+    #mobile-nav ul li a:hover{
+        text-decoration: none !important;
+    }
+}
